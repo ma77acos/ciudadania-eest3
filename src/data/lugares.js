@@ -10,7 +10,7 @@ export const lugares = [
     nombre: 'Hostería del Bosque',
     categoria: 'Patrimonio',
     localidad: 'Necochea',
-    coords: [-38.580402, -58.7348486],
+    coords: [-38.5809, -58.7366],
     imagen: '/lugares/bosque.jpg',
     descripcion:
       'La Hostería del Bosque se encuentra dentro del Parque Miguel Lillo, rodeada de pinos y caminos de tierra. Fue pensada como un espacio de descanso en medio del verde, muy cerca de la playa.',
@@ -28,7 +28,8 @@ export const lugares = [
     categoria: 'Patrimonio',
     localidad: 'Necochea',
     coords: [-38.5808575, -58.7271081],
-    imagen: '/lugares/avenida2.jpg',
+    // Foto: "Hotel Marino" by pablodf (Flickr) — CC BY-NC-ND 2.0
+    imagen: '/lugares/hotel-marino.jpg',
     descripcion:
       'El Hotel Marino fue uno de los edificios hoteleros más reconocidos de Necochea. Su arquitectura y su ubicación frente al mar lo convirtieron en un símbolo del turismo de la ciudad durante décadas.',
     porQueVisitar:

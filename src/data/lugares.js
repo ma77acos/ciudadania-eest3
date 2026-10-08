@@ -28,7 +28,7 @@ export const lugares = [
     categoria: 'Patrimonio',
     localidad: 'Necochea',
     coords: [-38.5808575, -58.7271081],
-    imagen: '/lugares/hotel-casino.jpg',
+    imagen: '/lugares/avenida2.jpg',
     descripcion:
       'El Hotel Marino fue uno de los edificios hoteleros más reconocidos de Necochea. Su arquitectura y su ubicación frente al mar lo convirtieron en un símbolo del turismo de la ciudad durante décadas.',
     porQueVisitar:
@@ -62,7 +62,7 @@ export const lugares = [
     categoria: 'Historia',
     localidad: 'Necochea',
     coords: [-38.5974375, -58.7608125],
-    imagen: '/lugares/puerto.jpg',
+    imagen: '/lugares/muelle-pescadores.jpg',
     descripcion:
       'Las ruinas del antiguo muelle de pescadores recuerdan la actividad portuaria y pesquera que marcó la identidad de Quequén y Necochea. Hoy son un paisaje costero con fuerte valor histórico.',
     porQueVisitar:
@@ -147,7 +147,7 @@ export const lugares = [
     categoria: 'Playa',
     localidad: 'Necochea',
     coords: [-38.6688957, -59.0032654],
-    imagen: '/lugares/playa-2.jpg',
+    imagen: '/lugares/amanecer-necochea.jpg',
     descripcion:
       'El Balneario Los Ángeles es una de las playas del partido elegidas por vecinos y visitantes. Ofrece arena, mar abierto y un ambiente más calmado que las zonas más céntricas en temporada alta.',
     porQueVisitar:
@@ -164,7 +164,7 @@ export const lugares = [
     categoria: 'Playa',
     localidad: 'Necochea',
     coords: [-38.6222526, -58.8275402],
-    imagen: '/lugares/playa-4.jpg',
+    imagen: '/lugares/grutas-medanos-mar.jpg',
     descripcion:
       'Punta Negra es un sector de costa con carácter propio, marcado por el relieve y el contraste entre playa y formaciones naturales. Es un punto atractivo para quienes buscan paisajes menos urbanos.',
     porQueVisitar:
@@ -181,7 +181,7 @@ export const lugares = [
     categoria: 'Naturaleza',
     localidad: 'Necochea',
     coords: [-38.6512043, -59.1479241],
-    imagen: '/lugares/costa.jpg',
+    imagen: '/lugares/medano-blanco.jpg',
     descripcion:
       'Médano Blanco toma su nombre de las dunas y la arena clara típicas de este tramo. Es un ejemplo claro del paisaje dunario que protege y caracteriza gran parte del litoral bonaerense.',
     porQueVisitar:
@@ -198,7 +198,7 @@ export const lugares = [
     categoria: 'Playa',
     localidad: 'Necochea',
     coords: [-38.5759553, -58.7254075],
-    imagen: '/lugares/playa-3.jpg',
+    imagen: '/lugares/playa-2.jpg',
     descripcion:
       'Punta Florida es otro punto destacado del perfil costero necochense. Su nombre evoca el color y la vegetación del entorno, y suele elegirse para paseos y vistas al mar.',
     porQueVisitar:
@@ -283,7 +283,7 @@ export const lugares = [
     categoria: 'Museo',
     localidad: 'Necochea',
     coords: [-38.5820263, -58.7382695],
-    imagen: '/lugares/museo-1.jpg',
+    imagen: '/lugares/museo-ciencias-1.jpg',
     descripcion:
       'El Museo de Ciencias Naturales “Doctor José Squadrone” reúne colecciones vinculadas a la fauna, la flora y el patrimonio natural de la región. Es un espacio educativo clave para estudiantes y visitantes curiosos.',
     porQueVisitar:
@@ -300,7 +300,7 @@ export const lugares = [
     categoria: 'Museo',
     localidad: 'Necochea',
     coords: [-38.5819178, -58.738065],
-    imagen: '/lugares/museo-2.jpg',
+    imagen: '/lugares/museo-egisto-ratti.jpg',
     descripcion:
       'El Museo Histórico Regional Egisto Ratti conserva objetos, documentos e historias que cuentan cómo se formó Necochea y su región. Es una puerta de entrada al pasado de la comunidad.',
     porQueVisitar:
@@ -317,6 +317,7 @@ export const lugares = [
     categoria: 'Cultura',
     localidad: 'Necochea',
     coords: [-38.5808928, -58.7310309],
+    // Sin foto libre de la gruta en Commons; entorno verde del parque cercano.
     imagen: '/lugares/parque-interior.jpg',
     descripcion:
       'Las Grutas Lourdes son un espacio de devoción y encuentro inspirado en la gruta de Lourdes. Forman parte del patrimonio cultural y religioso de muchos vecinos del partido.',
@@ -336,7 +337,7 @@ export const lugares = [
     // Sin pin verificado en Google Maps/OSM (no confundir con comercios "Total").
     // Aprox. zona céntrica; conviene confirmar la dirección exacta con el grupo.
     coords: [-38.5549, -58.7396],
-    imagen: '/lugares/edificios-av2.jpg',
+    imagen: '/lugares/edificios-av2b.jpg',
     descripcion:
       'El Edificio Total es conocido no solo por su arquitectura, sino por las historias sobre un túnel secreto. Esas leyendas urbanas forman parte del relato popular de Necochea y despiertan mucha curiosidad.',
     porQueVisitar:

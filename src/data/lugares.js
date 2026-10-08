@@ -197,7 +197,8 @@ export const lugares = [
     nombre: 'Punta Florida',
     categoria: 'Playa',
     localidad: 'Necochea',
-    coords: [-38.5759553, -58.7254075],
+    // Cabo costero (OSM). El pin de Google "Punta Florida" es un negocio de pesca en Av. 10.
+    coords: [-38.657275, -58.9452706],
     imagen: '/lugares/playa-2.jpg',
     descripcion:
       'Punta Florida es otro punto destacado del perfil costero necochense. Su nombre evoca el color y la vegetación del entorno, y suele elegirse para paseos y vistas al mar.',
@@ -334,10 +335,10 @@ export const lugares = [
     nombre: 'Edificio Total y su túnel secreto',
     categoria: 'Misterio',
     localidad: 'Necochea',
-    // Sin pin verificado en Google Maps/OSM (no confundir con comercios "Total").
-    // Aprox. zona céntrica; conviene confirmar la dirección exacta con el grupo.
-    coords: [-38.5549, -58.7396],
-    imagen: '/lugares/edificios-av2b.jpg',
+    // No hay pin "Edificio Total" en Maps. El edificio con túnel a la playa es el
+    // Edificio Royal Casino (ex Hotel Royal), Av. 2 4101-4199 — !3d-38.5834639!4d-58.7302672
+    coords: [-38.5834639, -58.7302672],
+    imagen: '/lugares/edificios-av2.jpg',
     descripcion:
       'El Edificio Total es conocido no solo por su arquitectura, sino por las historias sobre un túnel secreto. Esas leyendas urbanas forman parte del relato popular de Necochea y despiertan mucha curiosidad.',
     porQueVisitar:

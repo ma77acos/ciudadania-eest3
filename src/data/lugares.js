@@ -197,9 +197,10 @@ export const lugares = [
     nombre: 'Punta Florida',
     categoria: 'Playa',
     localidad: 'Necochea',
-    // Cabo costero (OSM). El pin de Google "Punta Florida" es un negocio de pesca en Av. 10.
+    // Playa/cabo sobre el Atlántico (sur de Necochea). Google Maps solo tiene un negocio
+    // homónimo en Av. 10; el pin costero es el cabo OSM !3d-38.657275!4d-58.9452706.
     coords: [-38.657275, -58.9452706],
-    imagen: '/lugares/playa-2.jpg',
+    imagen: '/lugares/playa-acantilado.jpg',
     descripcion:
       'Punta Florida es otro punto destacado del perfil costero necochense. Su nombre evoca el color y la vegetación del entorno, y suele elegirse para paseos y vistas al mar.',
     porQueVisitar:

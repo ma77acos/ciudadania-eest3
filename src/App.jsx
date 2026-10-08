@@ -21,8 +21,8 @@ export default function App() {
       <header className="hero">
         <div className="hero-fondo" aria-hidden="true" />
         <div className="hero-contenido">
-          <p className="hero-escuela">EEST N°3 · Trabajo de Ciudadanía · 3er año</p>
-          <h1>Necochea</h1>
+          <p className="hero-escuela">EEST N°3 · Trabajo de Ciudadanía · 3ro 1ra</p>
+          <h1>Partido de Necochea</h1>
           <p className="hero-sub">
             Mapa interactivo de 20 lugares turísticos del Partido de Necochea,
             provincia de Buenos Aires.

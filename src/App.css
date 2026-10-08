@@ -105,10 +105,11 @@ body {
   margin: 0;
   font-family: var(--fuente-titulo);
   font-weight: 700;
-  font-size: clamp(3rem, 14vw, 7.5rem);
-  line-height: 0.92;
+  font-size: clamp(2.4rem, 9vw, 5.6rem);
+  line-height: 0.95;
   letter-spacing: -0.03em;
   word-break: break-word;
+  max-width: 12ch;
 }
 
 .hero-sub {
@@ -698,7 +699,7 @@ body {
 /* Celulares chicos */
 @media (max-width: 380px) {
   .hero h1 {
-    font-size: 2.7rem;
+    font-size: 2.1rem;
   }
 
   .mapa-wrap,

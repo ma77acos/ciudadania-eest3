@@ -337,21 +337,20 @@ export const lugares = [
   },
   {
     id: 20,
-    nombre: 'Edificio Total y su túnel secreto',
-    categoria: 'Misterio',
+    nombre: 'Hotel o Edificio Royal',
+    categoria: 'Patrimonio',
     localidad: 'Necochea',
-    // No hay pin "Edificio Total" en Maps. El edificio con túnel a la playa es el
-    // Edificio Royal Casino (ex Hotel Royal), Av. 2 4101-4199 — !3d-38.5834639!4d-58.7302672
-    coords: [-38.5834639, -58.7302672],
-    imagen: '/lugares/edificios-av2.jpg',
+    // Av. 2 y Calle 85 — Google Maps: C. 85 & Av. 2 !3d-38.5835394!4d-58.7301088
+    coords: [-38.5835394, -58.7301088],
+    imagen: '/lugares/hotel-royal.jpg',
     descripcion:
-      'El Edificio Total es conocido no solo por su arquitectura, sino por las historias sobre un túnel secreto. Esas leyendas urbanas forman parte del relato popular de Necochea y despiertan mucha curiosidad.',
+      'El Hotel Royal (hoy Edificio Royal o Royal Casino) se encuentra en la esquina de Av. 2 y calle 85, frente al mar. Fue construido a fines de los años 20 como hotel de lujo: tenía confitería, salón de baile, baños de agua de mar y un túnel directo a la playa. Hoy es un edificio de departamentos, pero sigue siendo un emblema de la época dorada del turismo en Necochea.',
     porQueVisitar:
-      'Mezcla patrimonio edilicio y mito local: perfecto para investigar historia y relatos de la ciudad.',
+      'Es patrimonio vivo de la costa: arquitectura histórica, historias del túnel a la playa y un punto clave del centro balneario.',
     datosUtiles: [
-      'Edificio emblemático de la ciudad',
-      'Asociado a historias de un túnel',
-      'Buen tema para relatos y patrimonio intangible',
+      'Esquina de Av. 2 y calle 85',
+      'Ex hotel inaugurado en 1929',
+      'Famoso por su túnel hacia la playa',
     ],
   },
 ]

@@ -11,7 +11,7 @@ export const lugares = [
     categoria: 'Patrimonio',
     localidad: 'Necochea',
     coords: [-38.5809, -58.7366],
-    imagen: '/lugares/bosque.jpg',
+    imagen: '/lugares/hosteria-del-bosque.jpg',
     descripcion:
       'La Hostería del Bosque se encuentra dentro del Parque Miguel Lillo, rodeada de pinos y caminos de tierra. Fue pensada como un espacio de descanso en medio del verde, muy cerca de la playa.',
     porQueVisitar:
@@ -148,7 +148,7 @@ export const lugares = [
     categoria: 'Playa',
     localidad: 'Necochea',
     coords: [-38.6688957, -59.0032654],
-    imagen: '/lugares/amanecer-necochea.jpg',
+    imagen: '/lugares/balneario-los-angeles.jpg',
     descripcion:
       'El Balneario Los Ángeles es una de las playas del partido elegidas por vecinos y visitantes. Ofrece arena, mar abierto y un ambiente más calmado que las zonas más céntricas en temporada alta.',
     porQueVisitar:
@@ -165,7 +165,7 @@ export const lugares = [
     categoria: 'Playa',
     localidad: 'Necochea',
     coords: [-38.6222526, -58.8275402],
-    imagen: '/lugares/grutas-medanos-mar.jpg',
+    imagen: '/lugares/punta-negra.jpg',
     descripcion:
       'Punta Negra es un sector de costa con carácter propio, marcado por el relieve y el contraste entre playa y formaciones naturales. Es un punto atractivo para quienes buscan paisajes menos urbanos.',
     porQueVisitar:
@@ -181,16 +181,17 @@ export const lugares = [
     nombre: 'Médano Blanco',
     categoria: 'Naturaleza',
     localidad: 'Necochea',
-    coords: [-38.6512043, -59.1479241],
-    imagen: '/lugares/medano-blanco.jpg',
+    // Termas del Campo Médano Blanco — Google Maps !3d-38.6516196!4d-59.1480636
+    coords: [-38.6516196, -59.1480636],
+    imagen: '/lugares/termas-medano-blanco.jpg',
     descripcion:
-      'Médano Blanco toma su nombre de las dunas y la arena clara típicas de este tramo. Es un ejemplo claro del paisaje dunario que protege y caracteriza gran parte del litoral bonaerense.',
+      'Médano Blanco es conocido por el complejo Termas del Campo: aguas termales, spa y naturaleza a unos 40 km de Necochea. El nombre recuerda el gran médano de la zona y la estancia histórica del lugar.',
     porQueVisitar:
-      'Permite observar el ecosistema de médanos y valorar la importancia de cuidar la costa.',
+      'Combina turismo termal, relax y el paisaje del interior del partido, más allá de la playa.',
     datosUtiles: [
-      'Paisaje de dunas costeras',
-      'Valor ambiental y paisajístico',
-      'Buen tema para hablar de conservación',
+      'Complejo Termas del Campo',
+      'Aguas termales y espacios de spa',
+      'A unos 40 km de la ciudad de Necochea',
     ],
   },
   {
@@ -201,7 +202,7 @@ export const lugares = [
     // Playa/cabo sobre el Atlántico (sur de Necochea). Google Maps solo tiene un negocio
     // homónimo en Av. 10; el pin costero es el cabo OSM !3d-38.657275!4d-58.9452706.
     coords: [-38.657275, -58.9452706],
-    imagen: '/lugares/playa-acantilado.jpg',
+    imagen: '/lugares/punta-florida.jpg',
     descripcion:
       'Punta Florida es otro punto destacado del perfil costero necochense. Su nombre evoca el color y la vegetación del entorno, y suele elegirse para paseos y vistas al mar.',
     porQueVisitar:
@@ -269,7 +270,7 @@ export const lugares = [
     categoria: 'Paseo',
     localidad: 'Necochea / Quequén',
     coords: [-38.5288973, -58.7377393],
-    imagen: '/lugares/puente.jpg',
+    imagen: '/lugares/paseo-ribera.jpg',
     descripcion:
       'El Paseo de Ribera acompaña el Río Quequén Grande, que separa y une a Necochea y Quequén. Es un espacio para caminar, mirar el puerto, los puentes y la vida cotidiana junto al agua.',
     porQueVisitar:
@@ -318,18 +319,20 @@ export const lugares = [
     id: 19,
     nombre: 'Grutas Lourdes',
     categoria: 'Cultura',
-    localidad: 'Necochea',
-    coords: [-38.5808928, -58.7310309],
-    // Sin foto libre de la gruta en Commons; entorno verde del parque cercano.
-    imagen: '/lugares/parque-interior.jpg',
+    localidad: 'Costa Bonita',
+    // Gruta de Lourdes en Costa Bonita (Partido de Necochea)
+    coords: [-38.5600825, -58.6309252],
+    // No hay foto libre exacta de la gruta de Costa Bonita en Commons;
+    // usamos una gruta de Lourdes argentina (Miramar) de aspecto similar.
+    imagen: '/lugares/gruta-lourdes.jpg',
     descripcion:
-      'Las Grutas Lourdes son un espacio de devoción y encuentro inspirado en la gruta de Lourdes. Forman parte del patrimonio cultural y religioso de muchos vecinos del partido.',
+      'La Gruta de Lourdes en Costa Bonita es un espacio de devoción junto a la costa, inspirado en la gruta de Lourdes. Es un lugar de paz visitado por vecinos y turistas del partido.',
     porQueVisitar:
-      'Muestran la dimensión espiritual y comunitaria de la identidad local.',
+      'Muestran la dimensión espiritual y comunitaria de la identidad local, a pocos minutos de Quequén.',
     datosUtiles: [
+      'Ubicada en Costa Bonita',
       'Sitio de fe y tradición',
-      'Valor cultural y simbólico',
-      'Visitado por vecinos y peregrinos',
+      'Cerca de la costa de Quequén',
     ],
   },
   {

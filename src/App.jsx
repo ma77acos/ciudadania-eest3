@@ -28,11 +28,11 @@ export default function App() {
             provincia de Buenos Aires.
           </p>
           <ul className="hero-alumnos">
-            <li>Simon Nardelli</li>
+            <li>Simón Nardelli</li>
             <li>Clemente Valenzuela</li>
-            <li>Federico Gil Ramon</li>
-            <li>Francisco Makarthe</li>
-            <li>Lisandro Polliero</li>
+            <li>Federico Gil Ramón</li>
+            <li>Francisco Makarthe Pucillo</li>
+            <li>Lisandro Poliero</li>
             <li>Lautaro Pastrello</li>
           </ul>
           <a className="hero-cta" href="#mapa">

@@ -92,7 +92,11 @@ export default function Mapa({ lugares, seleccionado, onSeleccionar }) {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <GeoJSON data={partidoNecochea} style={estiloPartido} />
+      <GeoJSON
+        key="partido-necochea-v4"
+        data={partidoNecochea}
+        style={estiloPartido}
+      />
       <AjustarMapaAlContenedor />
       <EncuadrarPartido />
       <CentrarEnLugar lugar={seleccionado} />

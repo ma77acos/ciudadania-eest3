@@ -31,7 +31,7 @@ export default function App() {
             <li>Simon Nardelli</li>
             <li>Clemente Valenzuela</li>
             <li>Federico Gil Ramon</li>
-            <li>Francisco Macarte</li>
+            <li>Francisco Makarthe</li>
             <li>Lisandro Polliero</li>
             <li>Lautaro Pastrello</li>
           </ul>

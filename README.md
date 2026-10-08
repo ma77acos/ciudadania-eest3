@@ -27,3 +27,7 @@ Carpeta de salida: `dist`
 
 - React + Vite
 - Leaflet / React-Leaflet (mapa OpenStreetMap)
+
+## Fotos
+
+Las imágenes de los lugares son fotos reales del Partido de Necochea / Quequén tomadas de [Wikimedia Commons](https://commons.wikimedia.org/) (licencias libres) y están guardadas en `public/lugares/`.

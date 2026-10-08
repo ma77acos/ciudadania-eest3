@@ -1,6 +1,8 @@
 /**
  * 20 lugares turísticos del Partido de Necochea (Buenos Aires).
- * Coordenadas aproximadas para el mapa interactivo.
+ * Fotos: Wikimedia Commons en /public/lugares.
+ * Coordenadas verificadas con Google Maps (y OSM cuando Maps no tiene pin claro).
+ * Formato Leaflet: [lat, lng]
  */
 export const lugares = [
   {
@@ -8,9 +10,8 @@ export const lugares = [
     nombre: 'Hostería del Bosque',
     categoria: 'Patrimonio',
     localidad: 'Necochea',
-    coords: [-38.5638, -58.7462],
-    imagen:
-      'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.580402, -58.7348486],
+    imagen: '/lugares/bosque.jpg',
     descripcion:
       'La Hostería del Bosque se encuentra dentro del Parque Miguel Lillo, rodeada de pinos y caminos de tierra. Fue pensada como un espacio de descanso en medio del verde, muy cerca de la playa.',
     porQueVisitar:
@@ -26,9 +27,8 @@ export const lugares = [
     nombre: 'Ex Hotel Marino',
     categoria: 'Patrimonio',
     localidad: 'Necochea',
-    coords: [-38.5608, -58.7415],
-    imagen:
-      'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.5808575, -58.7271081],
+    imagen: '/lugares/hotel-casino.jpg',
     descripcion:
       'El Hotel Marino fue uno de los edificios hoteleros más reconocidos de Necochea. Su arquitectura y su ubicación frente al mar lo convirtieron en un símbolo del turismo de la ciudad durante décadas.',
     porQueVisitar:
@@ -44,9 +44,8 @@ export const lugares = [
     nombre: 'Complejo del Casino Necochea',
     categoria: 'Cultura',
     localidad: 'Necochea',
-    coords: [-38.5616, -58.7388],
-    imagen:
-      'https://images.unsplash.com/photo-1519167758481-83f142bb8cba?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.5852427, -58.7342094],
+    imagen: '/lugares/casino.jpg',
     descripcion:
       'El complejo del Casino es un clásico de la vida nocturna y cultural de Necochea. Además del juego, suele asociarse a espectáculos, eventos y la vida social de la temporada.',
     porQueVisitar:
@@ -61,10 +60,9 @@ export const lugares = [
     id: 4,
     nombre: 'Ruinas del muelle de pescadores',
     categoria: 'Historia',
-    localidad: 'Quequén',
-    coords: [-38.5712, -58.6945],
-    imagen:
-      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80',
+    localidad: 'Necochea',
+    coords: [-38.5974375, -58.7608125],
+    imagen: '/lugares/puerto.jpg',
     descripcion:
       'Las ruinas del antiguo muelle de pescadores recuerdan la actividad portuaria y pesquera que marcó la identidad de Quequén y Necochea. Hoy son un paisaje costero con fuerte valor histórico.',
     porQueVisitar:
@@ -80,9 +78,8 @@ export const lugares = [
     nombre: 'Faro de Quequén',
     categoria: 'Ícono',
     localidad: 'Quequén',
-    coords: [-38.5768, -58.6902],
-    imagen:
-      'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.5666189, -58.689527],
+    imagen: '/lugares/faro-quequen.jpg',
     descripcion:
       'El Faro de Quequén es uno de los símbolos más fuertes del partido. Guía a los barcos hacia el puerto y se destaca como mirador y punto fotográfico sobre el océano Atlántico.',
     porQueVisitar:
@@ -98,9 +95,8 @@ export const lugares = [
     nombre: 'Estación de trenes La Dulce',
     categoria: 'Historia',
     localidad: 'La Dulce',
-    coords: [-38.3385, -59.2038],
-    imagen:
-      'https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.2791958, -59.2039723],
+    imagen: '/lugares/la-dulce.jpg',
     descripcion:
       'La estación de La Dulce forma parte de la historia ferroviaria del interior del partido. El tren conectó pueblos, facilitó el transporte de cereales y acercó a las personas a Necochea y otras ciudades.',
     porQueVisitar:
@@ -116,9 +112,8 @@ export const lugares = [
     nombre: 'Parque Miguel Lillo',
     categoria: 'Naturaleza',
     localidad: 'Necochea',
-    coords: [-38.5645, -58.7488],
-    imagen:
-      'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.5875437, -58.75024],
+    imagen: '/lugares/parque-lillo-2.jpg',
     descripcion:
       'El Parque Miguel Lillo es el gran pulmón verde de Necochea. Con cientos de hectáreas de bosque, lagos, senderos y espacios de recreación, es uno de los parques costeros más importantes del país.',
     porQueVisitar:
@@ -134,9 +129,8 @@ export const lugares = [
     nombre: 'Cueva del Tigre',
     categoria: 'Naturaleza',
     localidad: 'Necochea',
-    coords: [-38.5785, -58.7185],
-    imagen:
-      'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.6787431, -59.0132456],
+    imagen: '/lugares/costa-bonita.jpg',
     descripcion:
       'La Cueva del Tigre es un atractivo natural ligado a formaciones de la costa y a relatos locales. Su nombre y su entorno la convierten en un sitio curioso para explorar el paisaje necochense.',
     porQueVisitar:
@@ -152,9 +146,8 @@ export const lugares = [
     nombre: 'Balneario Los Ángeles',
     categoria: 'Playa',
     localidad: 'Necochea',
-    coords: [-38.5682, -58.7625],
-    imagen:
-      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.6688957, -59.0032654],
+    imagen: '/lugares/playa-2.jpg',
     descripcion:
       'El Balneario Los Ángeles es una de las playas del partido elegidas por vecinos y visitantes. Ofrece arena, mar abierto y un ambiente más calmado que las zonas más céntricas en temporada alta.',
     porQueVisitar:
@@ -170,9 +163,8 @@ export const lugares = [
     nombre: 'Punta Negra',
     categoria: 'Playa',
     localidad: 'Necochea',
-    coords: [-38.5755, -58.7755],
-    imagen:
-      'https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.6222526, -58.8275402],
+    imagen: '/lugares/playa-4.jpg',
     descripcion:
       'Punta Negra es un sector de costa con carácter propio, marcado por el relieve y el contraste entre playa y formaciones naturales. Es un punto atractivo para quienes buscan paisajes menos urbanos.',
     porQueVisitar:
@@ -188,9 +180,8 @@ export const lugares = [
     nombre: 'Médano Blanco',
     categoria: 'Naturaleza',
     localidad: 'Necochea',
-    coords: [-38.5802, -58.7885],
-    imagen:
-      'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.6512043, -59.1479241],
+    imagen: '/lugares/costa.jpg',
     descripcion:
       'Médano Blanco toma su nombre de las dunas y la arena clara típicas de este tramo. Es un ejemplo claro del paisaje dunario que protege y caracteriza gran parte del litoral bonaerense.',
     porQueVisitar:
@@ -206,9 +197,8 @@ export const lugares = [
     nombre: 'Punta Florida',
     categoria: 'Playa',
     localidad: 'Necochea',
-    coords: [-38.5695, -58.7288],
-    imagen:
-      'https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.5759553, -58.7254075],
+    imagen: '/lugares/playa-3.jpg',
     descripcion:
       'Punta Florida es otro punto destacado del perfil costero necochense. Su nombre evoca el color y la vegetación del entorno, y suele elegirse para paseos y vistas al mar.',
     porQueVisitar:
@@ -224,9 +214,8 @@ export const lugares = [
     nombre: 'Las Grutas',
     categoria: 'Naturaleza',
     localidad: 'Necochea',
-    coords: [-38.5825, -58.7055],
-    imagen:
-      'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.6126616, -58.8103036],
+    imagen: '/lugares/las-grutas-2.jpg',
     descripcion:
       'Las Grutas son formaciones rocosas y cavidades naturales modeladas por el viento y el mar. Conforman un paisaje distinto al de la playa de arena y atraen a quienes buscan geología y aventura suave.',
     porQueVisitar:
@@ -242,9 +231,8 @@ export const lugares = [
     nombre: 'Lago de los Cisnes',
     categoria: 'Naturaleza',
     localidad: 'Necochea',
-    coords: [-38.5652, -58.7505],
-    imagen:
-      'https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.5883477, -58.7442183],
+    imagen: '/lugares/lago-cisnes.jpg',
     descripcion:
       'El Lago de los Cisnes, dentro del Parque Miguel Lillo, es uno de los rincones más fotografiados de Necochea. El agua, los árboles y las aves crean un paisaje sereno muy visitado por familias.',
     porQueVisitar:
@@ -260,16 +248,15 @@ export const lugares = [
     nombre: 'Las Cascadas',
     categoria: 'Naturaleza',
     localidad: 'Necochea',
-    coords: [-38.5668, -58.7528],
-    imagen:
-      'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.4607575, -58.7610801],
+    imagen: '/lugares/cascadas.jpg',
     descripcion:
-      'Las Cascadas son un atractivo acuático del entorno del parque y la costa verde de Necochea. El sonido del agua y el entorno arbolado las convierten en una parada especial del paseo.',
+      'Las Cascadas son un atractivo acuático sobre el Río Quequén Grande. El sonido del agua y el entorno natural las convierten en una parada especial del paseo por el interior del partido.',
     porQueVisitar:
       'Aportan frescura y un contraste hermoso con el paisaje de playa y bosque.',
     datosUtiles: [
       'Atractivo natural / recreativo',
-      'Cercanas al área del parque',
+      'Sobre el Río Quequén Grande',
       'Buen complemento del recorrido verde',
     ],
   },
@@ -278,9 +265,8 @@ export const lugares = [
     nombre: 'Paseo de Ribera',
     categoria: 'Paseo',
     localidad: 'Necochea / Quequén',
-    coords: [-38.5548, -58.7125],
-    imagen:
-      'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.5288973, -58.7377393],
+    imagen: '/lugares/puente.jpg',
     descripcion:
       'El Paseo de Ribera acompaña el Río Quequén Grande, que separa y une a Necochea y Quequén. Es un espacio para caminar, mirar el puerto, los puentes y la vida cotidiana junto al agua.',
     porQueVisitar:
@@ -296,11 +282,10 @@ export const lugares = [
     nombre: 'Museo de Ciencias Naturales',
     categoria: 'Museo',
     localidad: 'Necochea',
-    coords: [-38.5542, -58.7398],
-    imagen:
-      'https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.5820263, -58.7382695],
+    imagen: '/lugares/museo-1.jpg',
     descripcion:
-      'El Museo de Ciencias Naturales reúne colecciones vinculadas a la fauna, la flora y el patrimonio natural de la región. Es un espacio educativo clave para estudiantes y visitantes curiosos.',
+      'El Museo de Ciencias Naturales “Doctor José Squadrone” reúne colecciones vinculadas a la fauna, la flora y el patrimonio natural de la región. Es un espacio educativo clave para estudiantes y visitantes curiosos.',
     porQueVisitar:
       'Ayuda a conocer la biodiversidad local y a valorar el entorno natural del partido.',
     datosUtiles: [
@@ -314,9 +299,8 @@ export const lugares = [
     nombre: 'Museo Histórico Regional Egisto Ratti',
     categoria: 'Museo',
     localidad: 'Necochea',
-    coords: [-38.5535, -58.7425],
-    imagen:
-      'https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.5819178, -58.738065],
+    imagen: '/lugares/museo-2.jpg',
     descripcion:
       'El Museo Histórico Regional Egisto Ratti conserva objetos, documentos e historias que cuentan cómo se formó Necochea y su región. Es una puerta de entrada al pasado de la comunidad.',
     porQueVisitar:
@@ -332,9 +316,8 @@ export const lugares = [
     nombre: 'Grutas Lourdes',
     categoria: 'Cultura',
     localidad: 'Necochea',
-    coords: [-38.5588, -58.7512],
-    imagen:
-      'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80',
+    coords: [-38.5808928, -58.7310309],
+    imagen: '/lugares/parque-interior.jpg',
     descripcion:
       'Las Grutas Lourdes son un espacio de devoción y encuentro inspirado en la gruta de Lourdes. Forman parte del patrimonio cultural y religioso de muchos vecinos del partido.',
     porQueVisitar:
@@ -350,9 +333,10 @@ export const lugares = [
     nombre: 'Edificio Total y su túnel secreto',
     categoria: 'Misterio',
     localidad: 'Necochea',
-    coords: [-38.5528, -58.7368],
-    imagen:
-      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80',
+    // Sin pin verificado en Google Maps/OSM (no confundir con comercios "Total").
+    // Aprox. zona céntrica; conviene confirmar la dirección exacta con el grupo.
+    coords: [-38.5549, -58.7396],
+    imagen: '/lugares/edificios-av2.jpg',
     descripcion:
       'El Edificio Total es conocido no solo por su arquitectura, sino por las historias sobre un túnel secreto. Esas leyendas urbanas forman parte del relato popular de Necochea y despiertan mucha curiosidad.',
     porQueVisitar:
@@ -365,5 +349,6 @@ export const lugares = [
   },
 ]
 
-export const centroMapa = [-38.55, -58.74]
-export const zoomInicial = 11
+/** Centro del mapa abarcando costa + interior del partido */
+export const centroMapa = [-38.58, -58.85]
+export const zoomInicial = 10

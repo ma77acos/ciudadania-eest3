@@ -11,13 +11,18 @@ export default function FichaLugar({ lugar, onCerrar }) {
   }
 
   return (
-    <section className="ficha" aria-live="polite">
+    <section className="ficha ficha-activa" aria-live="polite">
+      <div className="ficha-asa" aria-hidden="true" />
       <button type="button" className="ficha-cerrar" onClick={onCerrar} aria-label="Cerrar ficha">
         ×
       </button>
 
       <div className="ficha-imagen-wrap">
-        <img src={lugar.imagen} alt={`Imagen representativa de ${lugar.nombre}`} />
+        <img
+          src={lugar.imagen}
+          alt={`Imagen representativa de ${lugar.nombre}`}
+          loading="lazy"
+        />
         <span className="ficha-categoria">{lugar.categoria}</span>
       </div>
 

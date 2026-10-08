@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { lugares } from './data/lugares'
 import Mapa from './components/Mapa'
 import ListaLugares from './components/ListaLugares'
@@ -9,8 +9,15 @@ export default function App() {
   const [seleccionado, setSeleccionado] = useState(null)
   const [busqueda, setBusqueda] = useState('')
 
+  useEffect(() => {
+    document.body.classList.toggle('ficha-abierta', Boolean(seleccionado))
+    return () => document.body.classList.remove('ficha-abierta')
+  }, [seleccionado])
+
+  const cerrarFicha = () => setSeleccionado(null)
+
   return (
-    <div className="app">
+    <div className={`app ${seleccionado ? 'tiene-seleccion' : ''}`}>
       <header className="hero">
         <div className="hero-fondo" aria-hidden="true" />
         <div className="hero-contenido">
@@ -43,7 +50,16 @@ export default function App() {
           />
         </div>
 
-        <FichaLugar lugar={seleccionado} onCerrar={() => setSeleccionado(null)} />
+        {seleccionado && (
+          <button
+            type="button"
+            className="ficha-backdrop"
+            aria-label="Cerrar información del lugar"
+            onClick={cerrarFicha}
+          />
+        )}
+
+        <FichaLugar lugar={seleccionado} onCerrar={cerrarFicha} />
       </main>
 
       <footer className="pie">

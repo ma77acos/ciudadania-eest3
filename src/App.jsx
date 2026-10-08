@@ -27,6 +27,14 @@ export default function App() {
             Mapa interactivo de 20 lugares turísticos del Partido de Necochea,
             provincia de Buenos Aires.
           </p>
+          <ul className="hero-alumnos">
+            <li>Simon Nardelli</li>
+            <li>Clemente Valenzuela</li>
+            <li>Federico Gil Ramon</li>
+            <li>Francisco Macarte</li>
+            <li>Lisandro Polliero</li>
+            <li>Lautaro Pastrello</li>
+          </ul>
           <a className="hero-cta" href="#mapa">
             Explorar el mapa
           </a>
